@@ -813,6 +813,7 @@ namespace DaggerfallWorkshop.Game.Items
             data.timeForItemToDisappear = timeForItemToDisappear;
             data.timeHealthLeechLastUsed = timeHealthLeechLastUsed;
             data.artifactIndexBitfield = artifactIndexBitfield;
+            data.className = GetType().ToString();
 
             return data;
         }
